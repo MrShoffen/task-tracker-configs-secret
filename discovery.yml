@@ -1,0 +1,6 @@
+discovery:
+  server:
+    hostname: localhost #config-server-property
+    port: 8015 #config-server-property
+  client:
+    default-zone: http://${discovery.server.hostname}:${discovery.server.port}/eureka
