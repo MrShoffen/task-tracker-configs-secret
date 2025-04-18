@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: PhotoAppApiConfigServer
+
+  rabbitmq: #ENV
+    host: 192.168.0.125
+    port: 5672
+    username: guest
+    password: guest
+
+  security:
+    user:
+      name: admin
+      password: 123456789
+      roles: ADMIN
+
+
+  cloud:
+    config:
+      server:
+
+        git:
+          uri: https://github.com/MrShoffen/PhotoAppConfiguration
+          username: MrShoffen
+          password: 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
+          clone-on-start: true
+          default-label: main
+
+encrypt:
+  key: sdfJF393jFJJr9f90wqldmHW8ndmw89jdsnYEtMFNB
+
+server:
+  port: 8012
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: busrefresh
+app:
+  security-users:
+    admin:
+      name: admin
+      password: 123456789
+      role: ADMIN
+    client:
+      name: client
+      password: 123456789
+      role: CLIENT
+
