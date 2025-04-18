@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.0.125:3434/postgres
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: '{cipher}4bd2a3e41eacc72480605b9a76b88daf49eff5227850d011a8e6c13ac77b054d'
+
+  rabbitmq:
+    host: 192.168.0.125
+    port: 5672
+    username: '{cipher}6b38bd5b3e594f6f94c90c6fb15f50b03aa9964ce1c8769a2effe1c69e221d0f'
+    password: '{cipher}6b38bd5b3e594f6f94c90c6fb15f50b03aa9964ce1c8769a2effe1c69e221d0f'
+    
+token:
+  expiration-time: 3600 #SECONDS
+  secret: abc7f2d013b17d374cb3e191907631e3e71987b5af9be8e2ceacf023fcaddef7d7ada1d47c750227e8892e4b535931ac98fe18024c52f70b86090b5ac2520430
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka
