@@ -1,4 +1,4 @@
-discovery:
+discovery-service-user:
   server:
     hostname: localhost #config-server-property
     port: 8015 #config-server-property
