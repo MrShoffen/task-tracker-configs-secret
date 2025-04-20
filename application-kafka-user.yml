@@ -1,0 +1,2 @@
+kafka-user:
+  hostname: localhost:29092
