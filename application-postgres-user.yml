@@ -1,8 +1,8 @@
 postgres-user:
   server:
-    url: 192.168.0.125
-    port: 3434
+    url: postgres
+    port: 5432
     database: task_db
   credentials:
     username: postgres
-    password: Fjeoqi38B3Nio83ndNehH328
+    password: aeoeqi38B3Nfe93m8e4Dfjnp328
