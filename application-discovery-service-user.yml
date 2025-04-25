@@ -2,5 +2,3 @@ discovery-service-user:
   server:
     hostname: discovery-service #config-server-property
     port: 8015 #config-server-property
-  client:
-    default-zone: http://${discovery.server.hostname}:${discovery.server.port}/eureka
