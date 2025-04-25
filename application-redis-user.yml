@@ -1,0 +1,3 @@
+redis-user:
+  host: redis
+  port: 6379
