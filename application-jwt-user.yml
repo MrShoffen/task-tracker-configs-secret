@@ -1,6 +1,6 @@
 jwt-user:
   keys:
-    access-token-key: '{"kty":"oct","k":"h4dfgRX5ZRZooHem3mEnctZ-KtR9FoESgCnH-3BNgde8"}'
+    access-token-key: '{cipher}0f121150425eeebac91aeb2ffeae53268f2896871c8be7a45851cebcd6bbbda732d5212b6c6b6bf0c5454b81f75a40f8cb133904bb74811365e33c0404cbb014411fe3ce591fa83b2b92c702f5e7b98f8909102ab6bd9bea39276a65d4c2c26d'
     refresh-token-key: '{"kty":"oct","k":"95dfNwiBe7vR5KnbguLr5irJD-a2gesF"}'
   ttl:
     access-ttl: 20m #Minutes
