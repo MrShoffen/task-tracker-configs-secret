@@ -1,6 +1,6 @@
 mail-user:
   from: noreply@taskzone.ru
-  host: smtp-relay.brevo.com
-  port: 587
-  username: '{cipher}23db6b1a5994a7edf7822190cdcd250964d6305a0c86c511aea95f8ad53feb1a6b7417e6f7abb6fdb12fcf2c2c95f5fe'
-  password: '{cipher}ccc32ea60969317ea33a2214fdab91038b445ddbee3e022d537d3e6b56a65cc381e75c8074fb0aa3247a58b695e8e711'
+  host: smtp.timeweb.ru
+  port: 465
+  username: '{cipher}b4c0c6c822d61d25037abeea0bc2ed92d29207ec70320fac27e41c5c6d4f15c7eaf81cb39affae0cfbc275d37d3d7c72'
+  password: '{cipher}f53b7ba3ebd1a1379d028e76d6b9f43a1a29968fe0ba81c9fb07e436825c57cf'
