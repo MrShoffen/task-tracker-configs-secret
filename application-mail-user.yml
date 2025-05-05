@@ -3,4 +3,4 @@ mail-user:
   host: smtp.timeweb.ru
   port: 465
   username: '{cipher}b4c0c6c822d61d25037abeea0bc2ed92d29207ec70320fac27e41c5c6d4f15c7eaf81cb39affae0cfbc275d37d3d7c72'
-  password: '{cipher}f53b7ba3ebd1a1379d028e76d6b9f43a1a29968fe0ba81c9fb07e436825c57cf'
+  password: '{cipher}9d76847bbd338f5118e37ee7bedff0a7a6b69974654ace47aeb6bae6c13b3e87'
