@@ -1,0 +1,6 @@
+app:
+  gateway:
+    api-prefix: /api/v1
+  registration:
+    max-confirmation-time: 20s
+    confirmation-link-prefix: /auth/sign-up?confirm=%s
