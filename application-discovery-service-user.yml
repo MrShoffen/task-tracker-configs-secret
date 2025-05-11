@@ -1,4 +1,0 @@
-discovery-service-user:
-  server:
-    hostname: discovery-service #config-server-property
-    port: 8015 #config-server-property
