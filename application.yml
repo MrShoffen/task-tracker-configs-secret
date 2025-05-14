@@ -4,6 +4,8 @@ app:
   registration:
     max-confirmation-time: 10m
     confirmation-link-prefix: /auth/sign-up?confirm=%s
+  frontend:
+    origin: "http://192.168.0.190:5173"    
 
 discovery-service-user:
   server:
