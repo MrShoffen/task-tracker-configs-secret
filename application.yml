@@ -5,7 +5,7 @@ app:
     max-confirmation-time: 10m
     confirmation-link-prefix: http://192.168.0.190:5173/registration-confirm?confirmationId=%s
   frontend:
-    origin: "http://192.168.0.190:5173"    
+    origin: "http://192.168.0.125:5173"    
 
 discovery-service-user:
   server:
