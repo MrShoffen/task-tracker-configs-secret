@@ -3,9 +3,9 @@ app:
     api-prefix: /api/v1
   registration:
     max-confirmation-time: 10m
-    confirmation-link-prefix: "http://192.168.0.125:80/registration-confirm?confirmationId=%s"
+    confirmation-link-prefix: "http://192.168.0.125/registration-confirm?confirmationId=%s"
   frontend:
-    origin: "http://192.168.0.125:80"    
+    origin: "http://192.168.0.125"    
 
 discovery-service-user:
   server:
