@@ -3,9 +3,9 @@ app:
     api-prefix: /api/v1
   registration:
     max-confirmation-time: 10m
-    confirmation-link-prefix: "http://taskzone.ru/registration-confirm?confirmationId=%s"
+    confirmation-link-prefix: "http://85.193.84.4/registration-confirm?confirmationId=%s"
   frontend:
-    origin: "http://taskzone.ru"    
+    origin: "http://85.193.84.4"    
 
 discovery-service-user:
   server:
