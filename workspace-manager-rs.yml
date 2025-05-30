@@ -1,0 +1,8 @@
+postgres-user:
+  server:
+    url: postgres-workspace
+    port: 5432
+    database: workspace_db
+  credentials:
+    username: '{cipher}46a55f6de6b48e88d5cf7bdc3f78f30d53ad945d9680ec999108113335439fb2'
+    password: '{cipher}88b27f680dd30d2686c4cae99e2f4eb08ab9a212f7ec3e867dc5962eba4c84811deac602a4dff701fcdb0bc8c9d5f86f'
