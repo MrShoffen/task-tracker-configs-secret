@@ -21,8 +21,8 @@ jwt-user:
     access-token-key: '{cipher}0f121150425eeebac91aeb2ffeae53268f2896871c8be7a45851cebcd6bbbda732d5212b6c6b6bf0c5454b81f75a40f8cb133904bb74811365e33c0404cbb014411fe3ce591fa83b2b92c702f5e7b98f8909102ab6bd9bea39276a65d4c2c26d'
     refresh-token-key: '{cipher}e546fa4bc44276cb5ba7555425e2663306c7051f8aadbe540800f40ef0632fe95ca5f9fd4c74025fa87af47cb0ccd58eb1d3a933e69c758658fc903852a438a2087cf670bfd5874b64c9aedb7e9a73af'
   ttl:
-    access-ttl: 20m #Minutes
-    refresh-ttl: 1h #Hours
+    access-ttl: 10m #Minutes
+    refresh-ttl: 30d #Hours
 
 redis-user:
   host: redis
