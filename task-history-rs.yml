@@ -1,0 +1,4 @@
+mongo-user:
+  server:
+    url: mongo-history
+    port: 27017
