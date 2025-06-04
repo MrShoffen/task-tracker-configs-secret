@@ -2,8 +2,8 @@ app:
   gateway:
     api-prefix: /api/v1
     rate-limiter:
-      replenish: 200
-      burst: 200
+      replenish: 8
+      burst: 120
       requested: 1
   registration:
     max-confirmation-time: 10m
